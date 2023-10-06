@@ -10,6 +10,7 @@ PROVA DATA SCIENCE HACKATÓ
 ## Mission / Missió.
 
 |  |English     |Catala      |
+|-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 |1|Select two sets of data and unify them bearing in mind that our base set is that of rents|Seleccionar dos conjunts de dades i unificar-los tenint en conta que el nostre conjunt base és el dels lloguers.|
 |2|Perform the necessary data pre-processing to ensure that the data is accurate.||Realitzar el preprocessament de dades necessari per garantir que les dades siguin precises.|
 |3|Apply principal component analysis (PCA) to reduce the dimensions of the data set.|Aplicar una anàlisi de components principals per reduir les dimensions del conjunt de dades.| 
