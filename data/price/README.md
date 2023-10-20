@@ -2,7 +2,7 @@
 
 |Pos|Field/Campo|Description/Descripció|
 |:--|:----------|:---------------------|
-|01|Any|Any de les dades|
+|01|Any|<span style="color:#2d9bda">Any de les dades</span>|
 |02|Trimestre|Trimestre de les dades|
 |03|Codi_Districte|Codi del districte|
 |04|Nom_Districte|Nom del districte|
