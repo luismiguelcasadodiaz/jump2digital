@@ -30,3 +30,6 @@ consideris necessàries.
 criteris d’avaluació utilitzats.
 3. Resultats: Presentació dels resultats obtinguts.
 4. Conclusions: Principals inferències derivades dels resultats aconseguits. 
+
+# Preus/Prices/Precios
+
