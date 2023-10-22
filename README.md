@@ -1,5 +1,9 @@
 # jump2digital
 PROVA DATA SCIENCE HACKATÓ
+## Project information
+
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 
 ## Data sources / conjunts de dades.
 [Rent prices / Llogers](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327)
