@@ -14,7 +14,7 @@
 
 
 
-Tenemos en cada año 584 registros.
+Tenemos en cada año de los 8 primeros años 584 registros.
 En cada año tenemos un dato por trimestre (4 trimestres)
 El dato trimestral tiene dos valores: (2 precios)
 	- Alquiler promedio mensual de un piso
@@ -44,15 +44,17 @@ En el campo Preu tenemos sin valor 326 registros de los 5402. un 6,03 % de los d
 
 |Trimestre| 1|2|3|4|sum|
 |----|----|----|----|----|----|
-|2014|10.0| 6.0|10.0|12.0|38.0|6.51%  |
-|2015|12.0| 4.0| 8.0| 8.0|32.0|5.48%  |
-|2016| 4.0|10.0| 9.0| 8.0|31.0|5.31%  |
-|2017|10.0| 8.0|10.0|10.0|38.0|6.51%  |
-|2018|12.0|10.0|12.0|10.0|44.0|7.53%  |
-|2019|12.0|12.0|12.0|10.0|46.0|7.88%  |
-|2020| 8.0|14.0|12.0|12.0|46.0|7.88%  |
-|2022|12.0|10.0|10.0| nan|32.0|7,30%  |
-|2023| 9.0|10.0| nan| nan|19.0|6,50%  |
+|2014|5.0|3.0|5.0|6.0|19.0|6.51%|
+|2015|6.0|2.0|4.0|4.0|16.0|5.48%|
+|2016|2.0|5.0|4.0|4.0|15.0|5.14%|
+|2017|5.0|4.0|5.0|5.0|19.0|6.51%|
+|2018|6.0|5.0|6.0|5.0|22.0|7.53%|
+|2019|6.0|6.0|6.0|5.0|23.0|7.88%|
+|2020|4.0|7.0|6.0|6.0|23.0|7.88%|
+|2021|6.0|5.0|6.0|5.0|22.0|7.53%|
+|2022|6.0|5.0|5.0|nan|16.0|7.30%|
+|2023|4.0|5.0|nan|nan|09.0|6.16%|
+||
 
 En el año 2022 faltan los precios de cuarto trimestre
 En el año 2021 faltan los precios del tercero y del cuarto cuatrimestre.
@@ -63,17 +65,20 @@ Barris amb preus NaN ['Baró de viver' 'Can peguera' 'Canyelles' 'La clota'
 
 La cantidad de datos faltantes se ve en esta tabla
 
-|loguer_mitja              |Lloguer mitjà mensual (Euros/mes) |Lloguer mitjà per superfície (Euros/m2 mes) |%datos faltantes|
-|--------------------------|----------------------------------|--------------------------------------------|---|
-|Baró de Viver             |                                25|                                          25|76%|
-|Can Peguera               |                                28|                                          28|85%|
-|Canyelles                 |                                 3|                                           3|09%|
-|Torre Baró                |                                19|                                          20|61%|
-|Vallbona                  |                                30|                                          30|91%|
-|la Clota                  |                                32|                                          32|97%|
-|la Marina del Prat Vermell|                                251                                          26|79%|
+|Barri                     |Euros|Euros_m2|%datos faltantes|
+|--------------------------|-----|--------|---|
+|Baró de Viver             |   27|      27|73%|
+|Can Peguera               |   32|      32|86%|
+|Canyelles                 |    3|       3|08%|
+|Torre Baró                |   23|      24|65%|
+|Vallbona                  |   34|      34|92%|
+|la Clota                  |   36|      36|97%|
+|la Marina del Prat Vermell|   29|      30|81%|
 
-Considerando 7 años completos (2014..2020), 28 trimestres, mas tres trimestres del 2021, 31 trimestres, mas dos trimestres de 2023, 33 trimestres, son los que un  barrio con toda la información deberá tener. 
+Considerando 8 años completos (2014..2020), 32 trimestres, mas tres trimestres del 2021, 35 trimestres, mas dos trimestres de 2023, 37 trimestres, son los que un barrio con toda la información deberá tener.
+
 
 Estimaremos los 3 valores faltantes en el barrio de Canyelles, calculando la media movil de los valores previos
+ Los otros seis barrios con datos faltantes, debido al alto número de datos faltantes, los borraremos del conjunto de datos de precios. Seis barrios por 37 registros por barrio suponen la supresion de 222 registros.
+
 
