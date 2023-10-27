@@ -1,0 +1,23 @@
+==> 2016_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2017_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2018_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2019_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2020_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2021_accidents_causa_conductor_gu_bcn_.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_causa_mediata","Descripcio_torn","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
+
+==> 2022_accidents_causa_conductor_gu_bcn_.csv <==
+Numero_expedient,Codi_districte,Nom_districte,Codi_barri,Nom_barri,Codi_carrer,Nom_carrer,Num_postal ,Descripcio_dia_setmana,NK_Any,Mes_any,Nom_mes,Dia_mes,Hora_dia,Descripcio_causa_mediata,Descripcio_torn,Coordenada_UTM_X_ED50,Coordenada_UTM_Y_ED50,Longitud,Latitud
+
+==> todo.csv <==
+"Numero_expedient","Codi_districte","Nom_districte","Codi_barri","Nom_barri","Codi_carrer","Nom_carrer","Num_postal ","Descripcio_dia_setmana","NK_Any","Mes_any","Nom_mes","Dia_mes","Hora_dia","Descripcio_torn","Descripcio_causa_conductor","Coordenada_UTM_X_ED50","Coordenada_UTM_Y_ED50","Longitud","Latitud"
