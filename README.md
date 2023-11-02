@@ -32,10 +32,11 @@ criteris d’avaluació utilitzats.
 4. Conclusions: Principals inferències derivades dels resultats aconseguits. 
 
 # Preus/Prices/Precios
-          1         2         3         4         5          1         2         3         4         5          1         2         3         4         5
+          1         2         3         4         5          6         7         8         9         0          1         2         3         4         5
 |12345678901234567890123456789012345678901234567890|12345678901234567890123456789012345678901234567890|12345678901234567890123456789012345678901234567890
 |English     |Catala      |Español|
-|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|__________________________________|___________________________________|____________________________________|
+|----------------------------------|-----------------------------------|-----------------------------------|
 |Prices for the years 2014 to 2023 come in annual files. They must be integrated into a single file. The prices for each neighborhood are quarterly. There are prices per square meter and monthly housing rental prices. In 2022 there is one quarter left and in 2023 there are two left. Six neighborhoods that have more NaN than data have been removed from the data set. IN a neighborhood that only had three quarters left, these three values have been estimated. For more [details](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/data/price/README.md)| Els preus del 2014 al 2023 vénen en arxius anuals. Cal integrar-los en un únic fitxer. Els preus de cada barri són trimestrals. Hi ha preus per metre quadrat i preus mensuals de lloguer d'habitatge. El 2022 en falta un trimestre i del 2023 en falten dos. S'han eliminat del conjunt de dades sis barris que tenen més NaN que dades. En un barri on només li faltaven tres trimestres s'han estimat aquests tres valors. Per tenir més [detalls](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/data/price/README.md)   |Los precios de los años 2014 al 2023 vienen en archivos anuales. Hay que integrarlos en un único archivo. Los precios de cada barrio son trimestrales.Hay precios por metro cuadrado y precios mensuales de alquiler de vivienda. En 2022 falta un trimestre y de 2023 faltan dos. Se han eliminado del conjunto de datos seis barrios que tiene mas NaN que datos. En un barrio al que solo le faltaban tres trimestres se han estimado estos tres valores. Para tener más [detalles](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/data/price/README.md)|
 
 
