@@ -129,3 +129,6 @@
 |The result is saved in a csv file "prices_14_23.csv"|El resultat es desa en un fitxer csv "prices_14_23.csv"|El resultado se guarda en un archivo csv "prices_14_23.csv"|
 
 
+
+![a](http:///home/luis/Documentos/python/jump2digital/data/price/barris_rank.png)
+
