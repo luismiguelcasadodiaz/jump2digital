@@ -492,6 +492,24 @@
 
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
+|La taula següent mostra, del model de dades, els trimestres disponibles per triar i fer l'anàlisi de components principals.|La siguiente tabla muestra, del modelo de datos,  los trimestres disponibles para elegir y hacer el análisis de componentes principales.|The following table shows, from the data model, the quarters available to choose and do the principal components analysis.|
+
+
+
+|Any |T1  |T2  |T3  |T4  |
+|----|----|----|----|----|
+|2016|66.0|66.0|66.0|66.0|
+|2017|66.0|67.0|67.0|67.0|
+|2018|67.0|67.0|67.0|67.0|
+|2019|67.0|67.0|67.0|67.0|
+|2020|67.0|66.0|67.0|67.0|
+|2021|67.0|67.0|67.0|66.0|
+|2022|67.0|67.0|67.0|NaN|
+
+
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
 |El primer pas és seleccionar un trimestre dels disponibles per fer l'anàlisi de components principals.|El primer paso es seleccionar un trimestre de los disponibles para hacer el análisis de componentes principales.|The first step is to select a quarter from those available to do the principal component analysis.|
 |En vista de la diferència entre les mitjanes i les variàncies de les variables numèriques del model normalitzem les mateixes. (els euros són més grans en magnitud que els m2.|A las vista de la diferencia entre las  medias y las varianzas de las variables numéricas del modelo normalizamos las mismas. (los euros son mayores en magnitud que los m2.|In view of the difference between the means and variances of the numerical variables of the model, we normalize them. (Euros are larger in magnitude than m2.|
 |Calculem la matriu de covariances de les variables numèriques i vectors propis de la mateixa. Aquests vectors propis ens donen els eixos ortogonals d'un nou espai multidimensional on projectarem els punts de dades per triar el parell que contingui més informació.|Calculamos la matriz de covarianzas de las variables numéricas y vectores propios de la misma. Estos vectores propios nos dan los ejes ortogonales de un nuevo espacio multidimensional en el que vamos a proyectar los puntos de datos para elegir el par de ellos que contenga más información.|We calculate the covariance matrix of the numerical variables and its eigenvectors. These eigenvectors give us the orthogonal axes of a new multidimensional space in which we are going to project the data points to choose the pair of them that contains the most information.|
@@ -524,15 +542,34 @@
 
 ![alt text](./assets/pca_barris.png "Variable reduction")
 
-|Any |T1  |T2  |T3  |T4  |
-|----|----|----|----|----|
-|2016|66.0|66.0|66.0|66.0|
-|2017|66.0|67.0|67.0|67.0|
-|2018|67.0|67.0|67.0|67.0|
-|2019|67.0|67.0|67.0|67.0|
-|2020|67.0|66.0|67.0|67.0|
-|2021|67.0|67.0|67.0|66.0|
-|2022|67.0|67.0|67.0|NaN|
+
+
+
+
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+
+## Resultats Resultados Results
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+
+
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+
+## Conclusions Conclusiones Conclusions
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Tot i que el nombre d'accidents anuals ha disminuït a Barcelona entre el 2016 i el 2022, no ho ha fet de forma generalitzada a tota la ciutat. Hi ha Barris on la ponderació relativa del nombre d'accidents que té el barri respecte de la totalitat ha augmentat i d'altres ha disminuït.| A pesar de que el número de accidentes anuales ha disminuido en Barcelona entre 2016 y 2022, no lo ha hecho de forma generalizada en toda la ciudad.  Hay Barrios en los que la ponderación relativa del número de accidentes que tiene el barrio respecto de la totalidad ha aumentado y en otros ha disminuido.|Although the number of annual accidents has decreased in Barcelona between 2016 and 2022, it has not done so generally throughout the city. There are neighborhoods in which the relative weight of the number of accidents that the neighborhood has with respect to the entire neighborhood has increased and in others it has decreased.|
+
+
+![alt text](./assets/barris_change_accidentes.png "Neighborhood  weight in global accidentality")
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Qui aquesta sigui la raó per la qual, no importa de quin trimestre se seleccionen les dades, els factors de càrrega dels vectors propis siguin similars.|Quiźas esta sea la razón por la cual , no importando de qué trimestre se seleccionen los datos, los factores de carga de los vectores propios sean similares.|Perhaps this is the reason why, no matter which quarter the data is selected from, the loading factors of the eigenvectors are similar.|
+|Qui aquesta sigui la raó per la qual, no importa de quin trimestre se seleccionen les dades, els factors de càrrega dels vectors propis siguin similars.
+|Aquesta taula mostra els factors de càrrega per a diversos trimestres.|Esta tabla muestra los factores de carga para varios trimestres.|This table shows the loading factors for various quarters.|
 
 
 |Var	  |PC-x  |PC-y  |
@@ -566,27 +603,5 @@
 |Eur|   	-0.65| -0.24|
 |m2|    	-0.64| -0.33|
 |Accidents|	-0.40|  0.91|
-
-
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
-
-## Resultats Resultados Results
-
-|_________________________|_________________________|_________________________|
-|-------------------------|-------------------------|-------------------------|
-
-
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
-
-## Conclusions Conclusiones Conclusions
-
-|_________________________|_________________________|_________________________|
-|-------------------------|-------------------------|-------------------------|
-|Tot i que el nombre d'accidents anuals ha disminuït a Barcelona entre el 2016 i el 2022, no ho ha fet de forma generalitzada a tota la ciutat. Hi ha Barris on la ponderació relativa del nombre d'accidents que té el barri respecte de la totalitat ha augmentat i d'altres ha disminuït.| A pesar de que el número de accidentes anuales ha disminuido en Barcelona entre 2016 y 2022, no lo ha hecho de forma generalizada en toda la ciudad.  Hay Barrios en los que la ponderación relativa del número de accidentes que tiene el barrio respecto de la totalidad ha aumentado y en otros ha disminuido.|Although the number of annual accidents has decreased in Barcelona between 2016 and 2022, it has not done so generally throughout the city. There are neighborhoods in which the relative weight of the number of accidents that the neighborhood has with respect to the entire neighborhood has increased and in others it has decreased.|
-
-
-![alt text](./assets/barris_change_accidentes.png "Neighborhood  weight in global accidentality")
-
-
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
