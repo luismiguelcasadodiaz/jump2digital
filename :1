@@ -1,13 +1,11 @@
 # JUMP2DIGITAL: PROVA DATA SCIENCE HACKATÓ
 
-## Continguts Contenido Contents
+## Index
+## Indice
 0. [Informació del projecte/Información del proyecto/Project information](#project-information)
-1. [Introducció/Introducción/Introduction](#introducció-introducción-introduction)
-2. [Tractament/Tratamiento/Processing](#tractament-tratamiento-processing)
-	- [Prices/Precio/Preu](#prices-precio-preu)
-	- [Accidents/Accidentes/Accidents](#accidents-accidentes-accidents)
-
-3. [Resultats/Resultados/Results](#results-resultados-results)
+1. [Introducció/Introducción/Introduction](#introduction)
+2. [Depuració de dades/Preparación de los datos/Data preprocess](#data-preprocess)
+3. [Resultats/Resultados/Results](#results)
 4. [Conclusions/Conclusiones/Conclusions](#conclusions-conclusiones-conclusions)
 
 
@@ -57,7 +55,9 @@ criteris d’avaluació utilitzats.
 4. Conclusions: Principals inferències derivades dels resultats aconseguits. 
 
 
-## Introducció Introducción Introduction
+## Introducció
+## Introducción/
+## introduction
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Presentació del conjunt de dades i de les variables seleccionades.|Presentación de los conjuntos de datos y de las variables selecionadas.|Introduction to data sets and variable selection.|
@@ -166,15 +166,15 @@ criteris d’avaluació utilitzats.
 |30|PATIS_E|Soroll en patis interiors d’illa en període vespre / Ruido en patios interiores en período tarde / Noise in inner courtyards in evening period|730|
 |31|PARCS_D|Soroll en parcs en període dia / Ruido en parques en período día / Noise in parks in day period|730|
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+[Torna a l'inici/Volver arriba/Back to top](#indice)
 
-## Tractament Tratamiento Processing
+## Depuració de dades/Preparación de los datos/Data preprocess
 
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Descripció detallada de les tècniques de preprocessat aplicades i els criteris d’avaluació utilitzats.|Descripción detallada de las técnicas de preprocesado aplicadas i los criterios de evaluación usados.|Detailed description of preprocessing methods applied and evaluation criteria.|
 
-### Prices Precio Preu
+### Prices/Precio/Preu
 
 |Pos|Field/Campo|Description/Descripció|
 |:--|:----------|:---------------------|
@@ -304,9 +304,8 @@ criteris d’avaluació utilitzats.
 |Estimarem els 3 valors faltants al barri de Canyelles, calculant la mitjana mòbil dels valors previs. Els altres sis barris amb dades faltants, a causa de l'alt nombre de dades faltants, els esborrarem del conjunt de dades de preus. Sis barris per 37 registres per barri suposen la supressió de 222 registres.|Estimaremos los 3 valores faltantes en el barrio de Canyelles, calculando la media movil de los valores previos. Los otros seis barrios con datos faltantes, debido al alto número de datos faltantes, los borraremos del conjunto de datos de precios. Seis barrios por 37 registros por barrio suponen la supresion de 222 registros.|We will estimate the 3 missing values in the Canyelles neighborhood, calculating the moving average of the previous values. The other six neighborhoods with missing data, due to the high number of missing data, we will delete from the price data set. Six neighborhoods for 37 records per neighborhood mean the deletion of 222 records.|
 |El resultat es desa en un fitxer csv "prices_14_23.csv"|El resultado se guarda en un archivo csv "prices_14_23.csv"|The result is saved in a csv file "prices_14_23.csv"|
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
-### Accidents/Accidentes/Accidents
+### Accidents/Accidentes/accidents
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Les dades d’aquest dataset complementen les d'Accidents gestionats per la Guàrdia Urbana a la ciutat de Barcelona|El detalle de este conjunto de datos complementa los Accidentes gestionados por la Guardia Urbana en la ciudad de Barcelona.|The details of this dataset complement the Accidents managed by the Urban Guard in the city of Barcelona|
@@ -451,19 +450,18 @@ criteris d’avaluació utilitzats.
 |-------------------------|-------------------------|-------------------------|
 |Recordeu aquí que la clau està formada pel codi del barri, l'any i el trimestre. El resultat es desa en un fitxer csv "accidents_trimestrals_16_22.csv"|Recordar aqui que la clave está formada por el código del barrio, el año y el trimestre. El resultado se guarda en un archivo csv "accidents_trimestrals_16_22.csv"|Remember here that the key is made up of the neighborhood code, the year and the quarter. The result is saved in a csv file "accidents_trimestrals_16_22.csv"|
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
-### Fusionar Unir Merge
+### Unió de preus i accidents/Unión de precios y accidentes/Prices and accidentes merge.
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+[Torna a l'inici/Volver arriba/Back to top](#indice)
 
 ## Resultats Resultados Results
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+[Torna a l'inici/Volver arriba/Back to top](#indice)
 
 ## Conclusions Conclusiones Conclusions
 
 Hola
 
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+[Torna a l'inici/Volver arriba/Back to top](#indice)
