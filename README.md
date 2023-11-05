@@ -65,7 +65,7 @@
 
 [README](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/README.md). 
 
-####### [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 ---
 
 
@@ -246,6 +246,7 @@
 
 
 |    |Any |Trimestre| Nom_Districte| Nom_Barri              |Eur    |Clau   |Eur_m2|Date      |m2       |
+|----|----|---------|--------------|------------------------|-------|-------|------|----------|---------|
 |0   |2014|1        |Ciutat Vella  |el Raval                | 589.55| 120141|10.76 |2014-01-01|54.790892|
 |1   |2014|1        |Ciutat Vella  |el Barri Gòtic          | 712.79| 220141|10.58 |2014-01-01|67.371456|
 |2   |2014|1        |Ciutat Vella  |la Barceloneta          | 540.71| 320141|14.40 |2014-01-01|37.549306|
@@ -471,13 +472,98 @@
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Tenint en compte que hem tingut la precaució de crear una clau de fusió en cadascun dels dos conjunts de dades, aquesta operació és senzilla en aquest moment.|Habida cuenta que hemos tenido la precaución de crear una clave de fusión en cada uno de los dos conjuntos de datos, esta operación es sencilla en este momento.|Since we have taken the precaution of creating a merge key on each of the two data sets, this operation is simple at this point.|
+|De l'arxiu preus vénen 2479 registres de 67 barris. Cobreixen un espai temporal des del 2014 a meitat del 2023. (vam esborrar 6 barris als quals faltaven moltes dades). De l'arxiu accidents vénen 2046 registres de 73 barris. Cobreixen un espai temporal des del 2016 al 2022.|Del archivo  precios vienen 2479 registros de 67 barrios. Cubren un espacio temporal desde 2014 a mitad de 2023. (borramos 6 barrios a los que les faltaban muchos datos). Del archivo accidentes vienen 2046 registros de 73 barrios. Cubren un espacio temporal desde 2016 al 2022.|From the prices file come 2479 records from 67 neighborhoods. They cover a time period from 2014 to mid-2023. (we deleted 6 neighborhoods that were missing a lot of data). From the accident file come 2046 records from 73 neighborhoods. They cover a time period from 2016 to 2022.|
 |La clau està composta pel codi del barri concatenat a l'any i concatenat al trimestre.|La clave está compuesta por el código del barrio concatenado al año y concatenado al trimestre.|The key is composed of the neighborhood code concatenated to the year and concatenated to the quarter.|
+|La unió produeix 1802 registres de 67 municipis cobrint un espai temporal des del 2016 al tercer trimestre del 2022.|La unión produce 1802 registros de 67 municipios cubriendo un espacio temporal desde 2016 al tercer trimestre de 2022.|The union produces 1,802 records from 67 municipalities covering a period from 2016 to the third quarter of 2022.|
 |En aquest pas també fem la selecció de les columnes amb què farem l'anàlisi PCA. Preu mitjà a Euros de lloguer un apartament al barri, metres quadrats mitjana dels apartaments al barri i nombre d'accidents que hi ha hagut al barri en aquest trimestre.|En este paso también hacemos la selección de las columnas con las que vamos a hacer el análisis PCA. Precio medio en Euros de alquiler un apartamenteo en el barrio, metros cuadrados promedio de los apartamenteos en el barrio y número de accidentes habidos en el barrio en ese trimestre.|In this step we also select the columns with which we are going to do the PCA analysis. Average rental price in Euros for an apartment in the neighborhood, average square meters of apartments in the neighborhood and number of accidents in the neighborhood in that quarter.|
 
+|    |Nom_Barri               |Any |Trimestre|Eur|m2|Accidents|
+|----|------------------------|--- |---------|---|--|---------|
+|0   ||el Raval               |2016|1        |624.419983|53.598283|61|
+|1   |el Barri Gòtic          |2016|1        |893.419983|66.326652|32|
+|2   |la Barceloneta          |2016|1        |638.750000|36.921965|34|
+|1799|Provençals del Poblenou |2022|3        |1059.400024|71.581081|23|
+|1800|Sant Martí de Provençals|2022|3        |1158.900024|94.219512|12|
+|1801|la Verneda i la Pau     |2022|3        |775.799988|67.460870|20|
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
 ### ACP ACP PCA
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|El primer pas és seleccionar un trimestre dels disponibles per fer l'anàlisi de components principals.|El primer paso es seleccionar un trimestre de los disponibles para hacer el análisis de componentes principales.|The first step is to select a quarter from those available to do the principal component analysis.|
+|En vista de la diferència entre les mitjanes i les variàncies de les variables numèriques del model normalitzem les mateixes. (els euros són més grans en magnitud que els m2.|A las vista de la diferencia entre las  medias y las varianzas de las variables numéricas del modelo normalizamos las mismas. (los euros son mayores en magnitud que los m2.|In view of the difference between the means and variances of the numerical variables of the model, we normalize them. (Euros are larger in magnitude than m2.|
+|Calculem la matriu de covariances de les variables numèriques i vectors propis de la mateixa. Aquests vectors propis ens donen els eixos ortogonals d'un nou espai multidimensional on projectarem els punts de dades per triar el parell que contingui més informació.|Calculamos la matriz de covarianzas de las variables numéricas y vectores propios de la misma. Estos vectores propios nos dan los ejes ortogonales de un nuevo espacio multidimensional en el que vamos a proyectar los puntos de datos para elegir el par de ellos que contenga más información.|We calculate the covariance matrix of the numerical variables and its eigenvectors. These eigenvectors give us the orthogonal axes of a new multidimensional space in which we are going to project the data points to choose the pair of them that contains the most information.|
+|Els números per al segon trimestre del 2019 són aquests:|Los números para el segundo trimestre de 2019 son estos:|The numbers for the second quarter of 2019 are these:|
+
+|Eigenvec-1  |Eigenvec-2 |Eigenvec-3 |
+|-----------:|----------:|----------:|
+|-0.63946575 |-0.71335699| -0.28671479|
+|-0.63316521 | 0.70018244| -0.32991873|
+|-0.43610249 | 0.0294339 |  0.89941551|
+
+|Eigenval-1 |Eigenval-2 |Eigenval-3 | 
+|2.15049437 |0.14579902 |0.74916115|
+
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Els vectors propis 1 i 3 tenen els valors propis més grans. Aquests dos vectors propis expliquen el 95% de la informació.|Los vectores propios 1 y 3 tienen los mayores valores propios. Estos dos vectores propios explican el 95% de la información.|Eigenvectors 1 and 3 have the largest eigenvalues. These two eigenvectors explain 95% of the information.|
+
+![alt text](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/media/EingeValues_variance.png "Variance explained")
+
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Any |T1  |T2  |T3  |T4  |
+|----|----|----|----|----|
+|2016|66.0|66.0|66.0|66.0|
+|2017|66.0|67.0|67.0|67.0|
+|2018|67.0|67.0|67.0|67.0|
+|2019|67.0|67.0|67.0|67.0|
+|2020|67.0|66.0|67.0|67.0|
+|2021|67.0|67.0|67.0|66.0|
+|2022|67.0|67.0|67.0|NaN|
+2016 T1
+Var		PC-x	 PC-y
+Eur         	-0.65	 -0.23
+m2          	-0.64	 -0.35
+Accidents   	-0.41	  0.91
+
+
+20I7 T4
+Var		PC-x	 PC-y
+Eur         	-0.62	 -0.35
+m2          	-0.62	 -0.33
+Accidents   	-0.48	  0.88
+
+2018 T1
+Var		PC-x	 PC-y
+Eur         	-0.63	 -0.29
+m2          	-0.62	 -0.36
+Accidents   	-0.46	  0.89
+
+2019 T2
+Var		PC-x	 PC-y
+Eur         	-0.64	 -0.29
+m2          	-0.63	 -0.33
+Accidents   	-0.44	  0.90
+
+2020 T3
+Var		PC-x	 PC-y
+Eur         	-0.66	 -0.23
+m2          	-0.64	 -0.32
+Accidents   	-0.39	  0.92
+
+
+
+2022 T3
+Var		PC-x	 PC-y
+Eur         	-0.65	 -0.24
+m2          	-0.64	 -0.33
+Accidents   	-0.40	  0.91
+
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
