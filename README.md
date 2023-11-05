@@ -511,7 +511,7 @@
 |-------------------------|-------------------------|-------------------------|
 |Els vectors propis 1 i 3 tenen els valors propis més grans. Aquests dos vectors propis expliquen el 95% de la informació.|Los vectores propios 1 y 3 tienen los mayores valores propios. Estos dos vectores propios explican el 95% de la información.|Eigenvectors 1 and 3 have the largest eigenvalues. These two eigenvectors explain 95% of the information.|
 
-![alt text](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/media/EingeValues_variance.png "Variance explained")
+![alt text](./assets/EingeValues_variance.png "Variance explained")
 
 
 |_________________________|_________________________|_________________________|
