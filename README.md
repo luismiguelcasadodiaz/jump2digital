@@ -532,6 +532,10 @@
 ![alt text](./assets/EingeValues_variance.png "Variance explained")
 
 
+
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+
+## Resultats Resultados Results
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Els vectors propis 1 i 3 tenen els valors propis més grans. Aquests dos vectors propis expliquen el 95% de la informació.|Los vectores propios 1 y 3 tienen los mayores valores propios. Estos dos vectores propios explican el 95% de la información.|Eigenvectors 1 and 3 have the largest eigenvalues. These two eigenvectors explain 95% of the information.|
@@ -543,15 +547,6 @@
 ![alt text](./assets/pca_barris.png "Variable reduction")
 
 
-
-
-
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
-
-## Resultats Resultados Results
-
-|_________________________|_________________________|_________________________|
-|-------------------------|-------------------------|-------------------------|
 
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
@@ -568,7 +563,6 @@
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Qui aquesta sigui la raó per la qual, no importa de quin trimestre se seleccionen les dades, els factors de càrrega dels vectors propis siguin similars.|Quiźas esta sea la razón por la cual , no importando de qué trimestre se seleccionen los datos, los factores de carga de los vectores propios sean similares.|Perhaps this is the reason why, no matter which quarter the data is selected from, the loading factors of the eigenvectors are similar.|
-|Qui aquesta sigui la raó per la qual, no importa de quin trimestre se seleccionen les dades, els factors de càrrega dels vectors propis siguin similars.
 |Aquesta taula mostra els factors de càrrega per a diversos trimestres.|Esta tabla muestra los factores de carga para varios trimestres.|This table shows the loading factors for various quarters.|
 
 
@@ -603,5 +597,14 @@
 |Eur|   	-0.65| -0.24|
 |m2|    	-0.64| -0.33|
 |Accidents|	-0.40|  0.91|
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Els lloguers poden fluctuar a l'alça oa la baixa en un interval de temps de nou anys en funció de la conjuntura econòmica de la ciutat. El que no sembla raonable és que l'àrea mitjana dels apartaments fluctuï en un interval de temps tan curt.|Los alquileres puede fluctuar al alza o a la baja en un intervalo de tiempo de nueve años en función de la coyuntura económica de la ciudad. Lo que no parece razonable es que el área promedio de los apartamentos fluctúe en un intervalo de tiempo tan corto.|Rents can fluctuate up or down over a period of nine years depending on the economic situation of the city. What seems unreasonable is that the average area of apartments fluctuates in such a short period of time.|
+|En aquest gràfic Trellis s'aprecien fluctuacions d'àrea, significatives en alguns barris. Aquesta circumstància ens fa pensar que la mostra utilitzada per estudiar l'evolució dels lloguers no té com a referència una base fixa d'apartaments. Sembla més aviat que les mostres d'apartaments al barri sigui aleatòria. Això pot posar en qüestió la bondat de les dades per a la finalitat que ens ocupa.|En este gráfico trellis se aprecian fluctuaciones de área, significativas en algunos barrios. Esta circunstancia nos hace pensar que la muestra usada para estudiar la evolución de los alquileres no tiene como referencia una base fija de apartamentos. Parece más bien que las muestra de apartamenteos en el barrio sea aleatoria. Esto puede poner en cuestion la bondad de los datos para la finalidad que nos ocupa.|In this trellis graph, area fluctuations can be seen, significant in some neighborhoods. This circumstance makes us think that the sample used to study the evolution of rents does not have a fixed base of apartments as a reference. It seems more like the sample of apartments in the neighborhood is random. This may call into question the suitability of the data for the purpose at hand.|
+
+![alt text](./assets/Trellis_barris_m2.png "Apartment area evolution over time")
+
+
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
