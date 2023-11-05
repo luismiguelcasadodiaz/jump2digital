@@ -14,7 +14,6 @@
 
 
 
- The city hosts Mobile World Congress (MWC) and 4 Years From Now (4YFN), the startup business platform present at MWC events around the world.
 
 
 
@@ -24,7 +23,6 @@
 
 
 
- La ciutat que acull el Mobile World Congress (MWC) i el 4 Years From Now (4YFN), la plataforma d’empreses emergents present en els esdeveniments del MWC a tot el món.
 
 
 
@@ -34,13 +32,16 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-### Conjunts de dades/Conjuntos de datos/Data sources.
 
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |Al [Mobile World Capital Barcelona](https://mobileworldcapital.com) impulsem el desenvolupament de l’ecosistema mòbil i digital per a posicionar Barcelona com hub de referència digital global.|[Mobile World Capital Barcelona](https://mobileworldcapital.com) Impulsa el desarrollo del ecosistema móvil y digital para posicionar Barcelona como hub de referencia digital global.|In the [Mobile World Capital Barcelona](https://mobileworldcapital.com) we promote the development of the mobile and digital ecosystem to position Barcelona as a global digital reference hub.|
 |Amb suport públic i privat, MWCapital centra la seva activitat en quatre àrees: l’acceleració de la **innovació** a través de l’emprenedoria digital; la transformació de la indústria mitjançant la **tecnologia** digital; el creixement del **talent** digital entre les noves generacions i els professionals; i la reflexió sobre l’impacte de la tecnologia a la nostra **societat**.|Con apoyo público y privado, MWCapital centra su actividad en cuatro áreas: la aceleración de la **innovación** a través del emprendimiento digital; la transformación de la industria mediante la **tecnología** digital; el crecimiento del **talento** digital entre las nuevas generaciones y los profesionales; y la reflexión sobre el impacto de la tecnología en nuestra **sociedad**.|With the support of the public and private sector, MWCapital focuses on four areas: the acceleration of **innovation** through digital entrepreneurship, the transformation of industries through digital **technology**, the rise of digital **talent** among new generations and professionals, and the reflection on the impact of technology in our **society**.|
 |Una de les iniciatives de MWCapital és el [Hackton JUMP2DIGITAL](https://jump2digital.site) del 17 de novembre de 2023. Per poder participar-hi cal superar una prova.|Una de sus iniciativas es el [Hackton JUMP2DIGITAL](https://jump2digital.site/es/) del 17 de noviembre de 2023. Para poder participar en el hay que superar una prueba.|One of MWCapital's initiatives is the [JUMP2DIGITAL Hackton](https://jump2digital.site/en/) on November 17, 2023. In order to participate in it, you must pass a test.|
+
+### Conjunts de dades/Conjuntos de datos/Data sources.
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
 |Per a aquesta prova tenim tres fonts de dades disponibles: Preus, accidents i sorolls. Estan disponibles a la web opendata de l'ajuntament de Barcelona. A sota hi ha els enllaços a les dades.|Para estra prueba tenemos tres fuentes de datos disponibles: Precios, accidentes y ruidos. Están disponibles en la web opendata del ayuntamiento de Barcelona. Abajo están los enlaces a los datos.|For this proof we have three data sources available: Prices, accidents and noise. They are available on the Barcelona City Council's opendata website. Below are links to the data.|
 
 [2014..2023 Llogers/Alquileres/Rent prices](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327)
@@ -60,7 +61,7 @@
 
 ### Lliurament Entrega Delivery
 
-[Jupyter Notebook]()
+[Jupyter Notebook](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/LMCD_JUMP2DIGITAL.ipynb)
 [README](). 
 
 
