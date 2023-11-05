@@ -6,8 +6,9 @@
 2. [Tractament/Tratamiento/Processing](#tractament-tratamiento-processing)
 	- [Prices/Precio/Preu](#prices-precio-preu)
 	- [Accidents/Accidentes/Accidents](#accidents-accidentes-accidents)
-
-3. [Resultats/Resultados/Results](#results-resultados-results)
+	- [Fusionar/Unir/Merge](#fusionar-unir-merge)
+	- [ACP/ACP/PCA](#acp-acp-pca)
+3. [Resultats/Resultados/Results](#resultas-resultados-results)
 4. [Conclusions/Conclusiones/Conclusions](#conclusions-conclusiones-conclusions)
 
 
@@ -30,13 +31,13 @@ p: Presentació del conjunt de dades i de les variables seleccionades.
 
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
-||Para este proyecto tenemos tres fuentes de datos disponibles: Precios, accidentes y ruidos.|
+|Per a aquest projecte tenim tres fonts de dades disponibles: Preus, accidents i sorolls. Estan disponibles a la web opendata de l'ajuntament de Barcelona. A sota hi ha els enllaços a les dades.|Para este proyecto tenemos tres fuentes de datos disponibles: Precios, accidentes y ruidos. Están disponibles en la web opendata del ayuntamiento de Barcelona. Abajo están los enlaces a los datos.|For this project we have three data sources available: Prices, accidents and noise. They are available on the Barcelona City Council's opendata website. Below are links to the data.|
 
-[Llogers/Alquileres/Rent prices](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327)
+[2014..2023 Llogers/Alquileres/Rent prices](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327)
 
-[Soroll/Ruido/noise](https://opendata-ajuntament.barcelona.cat/data/es/dataset/poblacio-exposada-mapa-estrategic-soroll/resource/3846500e-72aa-4780-967f-f09aa184eaba)
+[2017 Soroll/Ruido/noise](https://opendata-ajuntament.barcelona.cat/data/es/dataset/poblacio-exposada-mapa-estrategic-soroll/resource/3846500e-72aa-4780-967f-f09aa184eaba)
 
-[Accidents/Accidentes/Accidents](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/accidents_causa_conductor_gu_bcn/resource/1a05cdd4-4844-41a5-872d-a0824d11b517?inner_span=True)
+[2016..2022 Accidents/Accidentes/Accidents](https://opendata-ajuntament.barcelona.cat/data/ca/dataset/accidents_causa_conductor_gu_bcn/resource/1a05cdd4-4844-41a5-872d-a0824d11b517?inner_span=True)
 
 
 ### Missió/Misión/Mission 
@@ -47,14 +48,10 @@ p: Presentació del conjunt de dades i de les variables seleccionades.
 |Realitzar el preprocessament de dades necessari per garantir que les dades siguin precises.|Realizar el necesario preprocesamiento de los datos para garantizar que sean precisos.|Perform the necessary data pre-processing to ensure that the data is accurate.|
 |Aplicar una anàlisi de components principals per reduir les dimensions del conjunt de dades.|Realizar un análisis de componentes principales para reducir las dimensiones del conjunto de datos.|Apply principal component analysis (PCA) to reduce the dimensions of the data set.|
 
+### Lliurament Entrega Delivery
 
-Un arxiu Jupyter Notebook amb totes les línies de codi executades i les interpretacions que
-consideris necessàries.
-- Un arxiu README amb la següent informació:
-1. Introducció: 2. Depuració de dades: Descripció detallada de les tècniques de preprocessat aplicades i els
-criteris d’avaluació utilitzats.
-3. Resultats: Presentació dels resultats obtinguts.
-4. Conclusions: Principals inferències derivades dels resultats aconseguits. 
+[Jupyter Notebook]()
+[README](). 
 
 
 ## Introducció Introducción Introduction
@@ -454,6 +451,10 @@ criteris d’avaluació utilitzats.
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
 ### Fusionar Unir Merge
+
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+
+### ACP ACP PCA
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
