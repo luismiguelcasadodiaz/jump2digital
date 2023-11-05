@@ -65,7 +65,7 @@
 
 [README](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/README.md). 
 
-[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+####### [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 ---
 
 
@@ -127,19 +127,19 @@
 ### Sorolls/Ruidos/Noises
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
-|Les xifres de població provenen de la lectura del padró de l'any corresponent. Els percentatges que es mostren són respecte a la població del barri, districte o ciutat, segons el recurs corresponent. Per l'avaluació del soroll hi ha tres períodes horaris definits per normativa. El període dia és de 7.00 a 21.00 hores; el vespre, de 21.00 a 23.00 hores; i la nit, de 23.00 a 7.00 hores. D'aquests tres períodes s'obtenen els índexs acústics Ld, Le i Ln. A més, hi ha un quart índex acústic, el ponderat dia-vespre-nit (Lden), que correspon a una mitjana ponderada dels índexs Ld, Le i Ln, penalitzant els períodes vespre i nit.|Las cifras de población provienen de la lectura del padrón del año correspondiente. Los porcentajes que se muestran son respecto a la población del barrio, distrito o ciudad, según el recurso correspondiente. Para la evaluación del ruido hay tres períodos horarios definidos por normativa. El período día es de 7.00 a 21.00 horas; la tarde, de 21.00 a 23.00 horas; y la noche, de 23.00 a 7.00 horas. De estos tres períodos se obtienen los índices acústicos Ld, Le y Ln. Además, hay un cuarto índice acústico, el ponderado día-tarde-noche (Lden), que corresponde a una media ponderada de los índices Ld, Le y Ln, penalizando los períodos tarde y noche.|Population data comes from the reading of the municipal register the corresponding year. The percentages shown are with respect the population of the neighbourhood, district or city, according to the corresponding resource. For noise evaluation there are three time periods defined by regulation. The day period is from 7 am to 9 pm, evening from 9 pm to 11 pm, and night from 11 pm to 7 am. From these three periods, the noise indicators Ld, Le and Ln are obtained. In addition, there is a fourth indicator, the weighted day-evening-night (Lden), which corresponds to a weighted average of the Ld, Le and Ln indicators, penalizing the evening and night periods.|
+|Només hi ha dades del 2017. Les xifres de població provenen de la lectura del padró de l'any corresponent. Els percentatges que es mostren són respecte a la població del barri, districte o ciutat, segons el recurs corresponent. Per l'avaluació del soroll hi ha tres períodes horaris definits per normativa. El període dia és de 7.00 a 21.00 hores; el vespre, de 21.00 a 23.00 hores; i la nit, de 23.00 a 7.00 hores. D'aquests tres períodes s'obtenen els índexs acústics Ld, Le i Ln. A més, hi ha un quart índex acústic, el ponderat dia-vespre-nit (Lden), que correspon a una mitjana ponderada dels índexs Ld, Le i Ln, penalitzant els períodes vespre i nit.|Solamente hay datos de 2017. Las cifras de población provienen de la lectura del padrón del año correspondiente. Los porcentajes que se muestran son respecto a la población del barrio, distrito o ciudad, según el recurso correspondiente. Para la evaluación del ruido hay tres períodos horarios definidos por normativa. El período día es de 7.00 a 21.00 horas; la tarde, de 21.00 a 23.00 horas; y la noche, de 23.00 a 7.00 horas. De estos tres períodos se obtienen los índices acústicos Ld, Le y Ln. Además, hay un cuarto índice acústico, el ponderado día-tarde-noche (Lden), que corresponde a una media ponderada de los índices Ld, Le y Ln, penalizando los períodos tarde y noche.|There is only data from 2017. Population data comes from the reading of the municipal register the corresponding year. The percentages shown are with respect the population of the neighbourhood, district or city, according to the corresponding resource. For noise evaluation there are three time periods defined by regulation. The day period is from 7 am to 9 pm, evening from 9 pm to 11 pm, and night from 11 pm to 7 am. From these three periods, the noise indicators Ld, Le and Ln are obtained. In addition, there is a fourth indicator, the weighted day-evening-night (Lden), which corresponds to a weighted average of the Ld, Le and Ln indicators, penalizing the evening and night periods.|
 
 ###  Estructura en format LONG (Vertical)
 
 |Pos|Camp/Field/Campo|/Descripció/Description/Descripción|Registres/Records/Registros|
 |:--|:---------|:----------------------------------------------------------|-------:|
-|01|Codi_Districte|Codi del districte / Código del distrito / District's code|
-|02|Nom_Districte|Nom del districte / Nombre del distrito / District's name|
-|03|Codi_Barri|Codi del barri / Código del barrio / Neighbourhood's code|
-|04|Nom_Barri|Nom del barri / Nombre del barrio / Neighbourhood's name|
-|05|Rang_soroll|Rang de soroll / Rango de ruido / Noise range|
-|06|Concepte|Concepte/Concepto/Concept|
-|07|Valor|Valor/Valor/Value|
+|01|Codi_Districte|Codi del districte / Código del distrito / District's code|18980|
+|02|Nom_Districte|Nom del districte / Nombre del distrito / District's name|18980|
+|03|Codi_Barri|Codi del barri / Código del barrio / Neighbourhood's code|18980|
+|04|Nom_Barri|Nom del barri / Nombre del barrio / Neighbourhood's name|18980|
+|05|Rang_soroll|Rang de soroll / Rango de ruido / Noise range|18980|
+|06|Concepte|Concepte/Concepto/Concept|18980|
+|07|Valor|Valor/Valor/Value|18980|
   
   
 ### Estructura en format WIDE (Horizontal)
@@ -240,17 +240,18 @@
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
 |El primer tractament del preprocessat serà unir en un únic registre trimestral els dos tipus de preu existents, creat per a això dues noves columnes "Eur" i "Eur_m2". Per això es creem primer una clau que ens permeti unir les dades posteriorment. Aquesta clau té el codi de barri l'any i el trimestre. Dividim els preus en dos subconjunts: un subconjunt amb els registres que contenen el preu de tipus "Lloguer de mitjana mensual d'un pis" i un altre subconjunt amb els registres que conté el preu del tipus "Lloguer de mitjana mensual d'un m2". A cada subconjunt canviem adequadament el nom de la columna preu i fusionem els dos subconjunt per la clau creada.|El primer tratamiento del preprocesado será unir en  un único registro trimestrasl los dos tipos de precio existentes, creado para ello dos nueva columnas "Eur" y "Eur_m2". Para ellos creamos primero una clave que nos permita unir los datos posteriormente. Esta clave tiene el codigo de barrio el año y el trimestre. Dividimos los precios en dos subconjuntos: un subconjunto con los registros que contienen el precio de tipo "Alquiler promedio mensual de un piso" y otro subconjunto con los registros que contiene el precio del tipo "Alquiler promedio mensual de un m2". En cada subconjunto cambiamos adecuadamente el nombre de la columna precio y fusionamos los dos subconjunto por la clave creada.|The first preprocessing treatment will be to unite the two existing price types into a single quarterly record, creating two new columns "Eur" and "Eur_m2" for this purpose. To do this, we first create a key that allows us to join the data later. This key has the neighborhood code, the year and the quarter. We divide the prices into two subsets: a subset with the records that contain the price of the type "Average monthly rent of an apartment" and another subset with the records that contain the price of the type "Average monthly rent of a m2." In each subset we appropriately rename the price column and merge the two subsets by the created key.|
-|El resultat de la transformació son 2701 files de 7 columnes:|El resultado de la transformación son 2701 filas de 7 columnas:|The result of the transformation is 2701 rows of 7 columns:|
+|Amb les dades de preu calculem la superfície mitjana dels apartaments considerats en una columna “m2”.|Con los datos de precio calculamos la superficie media de los apartamentos considerados en una columna "m2".|With the price data we calculate the average surface area of the apartments considered in a "m2" column.|
+|Creem una columna data amb el primer dia del trimestre. Això ens ajudarà a graficar levolució en el temps de les dades dels barris.|Creamos una columna fecha con el primer día del trimestre. Esto nos ayudaŕa a graficar la evolución en el tiempo de los datos de los barrios.|We create a date column with the first day of the quarter. This will help us graph the evolution of neighborhood data over time.|
+|El resultat de la transformació son 2701 files de 9 columnes:|El resultado de la transformación son 2701 filas de 9 columnas:|The result of the transformation is 2701 rows of 9 columns:|
 
-||Any|Trimestre Nom_Districte|Nom_Barri|Eur|Clau|Eur_m2|
-|----|---|---------|-------------|---------|---|----|------|
-|0|2014|1|Ciutat Vella|el Raval|589.55|120141|10.76|
-|1|2014|1|Ciutat Vella|el Barri Gòtic|712.79|220141|10.58|
-|2|2014|1|Ciutat Vella|la Barceloneta|540.71|320141|14.40|
-|2698|2023|2|Sant Martí|Provençals del Poblenou|1204.20|7120232|16.70|
-|2699|2023|2|Sant Martí|Sant Martí de Provençals|960.90|7220232|13.20|
-|2700|2023|2|Sant Martí|la Verneda i la Pau|991.10|7320232|14.50|
 
+|    |Any |Trimestre| Nom_Districte| Nom_Barri              |Eur    |Clau   |Eur_m2|Date      |m2       |
+|0   |2014|1        |Ciutat Vella  |el Raval                | 589.55| 120141|10.76 |2014-01-01|54.790892|
+|1   |2014|1        |Ciutat Vella  |el Barri Gòtic          | 712.79| 220141|10.58 |2014-01-01|67.371456|
+|2   |2014|1        |Ciutat Vella  |la Barceloneta          | 540.71| 320141|14.40 |2014-01-01|37.549306|
+|2698|2023|2        |Sant Martí    |Provençals del Poblenou |1204.20|7120232|16.70 |2023-04-01|72.107784|
+|2699|2023|2        |Sant Martí    |Sant Martí de Provençals| 960.90|7220232|13.20 |2023-04-01|72.795455|
+|2700|2023|2        |Sant Martí    |la Verneda i la Pau     | 991.10|7320232|14.50 |2023-04-01|68.351724|
 
 
 |_________________________|_________________________|_________________________|
@@ -466,6 +467,13 @@
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
 ### Fusionar Unir Merge
+
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Tenint en compte que hem tingut la precaució de crear una clau de fusió en cadascun dels dos conjunts de dades, aquesta operació és senzilla en aquest moment.|Habida cuenta que hemos tenido la precaución de crear una clave de fusión en cada uno de los dos conjuntos de datos, esta operación es sencilla en este momento.|Since we have taken the precaution of creating a merge key on each of the two data sets, this operation is simple at this point.|
+|La clau està composta pel codi del barri concatenat a l'any i concatenat al trimestre.|La clave está compuesta por el código del barrio concatenado al año y concatenado al trimestre.|The key is composed of the neighborhood code concatenated to the year and concatenated to the quarter.|
+|En aquest pas també fem la selecció de les columnes amb què farem l'anàlisi PCA. Preu mitjà a Euros de lloguer un apartament al barri, metres quadrats mitjana dels apartaments al barri i nombre d'accidents que hi ha hagut al barri en aquest trimestre.|En este paso también hacemos la selección de las columnas con las que vamos a hacer el análisis PCA. Precio medio en Euros de alquiler un apartamenteo en el barrio, metros cuadrados promedio de los apartamenteos en el barrio y número de accidentes habidos en el barrio en ese trimestre.|In this step we also select the columns with which we are going to do the PCA analysis. Average rental price in Euros for an apartment in the neighborhood, average square meters of apartments in the neighborhood and number of accidents in the neighborhood in that quarter.|
+
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
