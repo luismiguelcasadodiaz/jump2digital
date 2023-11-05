@@ -6,7 +6,7 @@
 1. [Introducció/Introducción/Introduction](#introduction)
 2. [Depuració de dades/Preparación de los datos/Data preprocess](#data-preprocess)
 3. [Resultats/Resultados/Results](#results)
-4. [Conclusions/Conclusiones/Conclusions](#conclusions)
+4. [Conclusions/Conclusiones/Conclusions](#conclusions/Conclusiones/Conclusions)
 
 
 
@@ -165,6 +165,8 @@ criteris d’avaluació utilitzats.
 |29|PATIS_D|Soroll en patis interiors d’illa en període dia / Ruido en patios interiores en período día / Noise in inner courtyards in day period|730|
 |30|PATIS_E|Soroll en patis interiors d’illa en període vespre / Ruido en patios interiores en período tarde / Noise in inner courtyards in evening period|730|
 |31|PARCS_D|Soroll en parcs en període dia / Ruido en parques en período día / Noise in parks in day period|730|
+
+[Torna a l'inici/Volver arriba/Back to top](#indice)
 
 ## Depuració de dades/Preparación de los datos/Data preprocess
 
@@ -451,12 +453,15 @@ criteris d’avaluació utilitzats.
 
 ### Unió de preus i accidents/Unión de precios y accidentes/Prices and accidentes merge.
 
+[Torna a l'inici/Volver arriba/Back to top](#indice)
 
 3. [Resultats/Resultados/Results](#results)
-4. [Conclusions/Conclusiones/Conclusions](#conclusions)
-## Conclusions
+
+[Torna a l'inici/Volver arriba/Back to top](#indice)
+
+## Conclusions/Conclusiones/Conclusions
 
 Hola
 
 
-[Back to top](#index)
+[Torna a l'inici/Volver arriba/Back to top](#indice)
