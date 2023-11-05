@@ -497,15 +497,14 @@
 |Calculem la matriu de covariances de les variables numèriques i vectors propis de la mateixa. Aquests vectors propis ens donen els eixos ortogonals d'un nou espai multidimensional on projectarem els punts de dades per triar el parell que contingui més informació.|Calculamos la matriz de covarianzas de las variables numéricas y vectores propios de la misma. Estos vectores propios nos dan los ejes ortogonales de un nuevo espacio multidimensional en el que vamos a proyectar los puntos de datos para elegir el par de ellos que contenga más información.|We calculate the covariance matrix of the numerical variables and its eigenvectors. These eigenvectors give us the orthogonal axes of a new multidimensional space in which we are going to project the data points to choose the pair of them that contains the most information.|
 |Els números per al segon trimestre del 2019 són aquests:|Los números para el segundo trimestre de 2019 son estos:|The numbers for the second quarter of 2019 are these:|
 
-|Eigenvec-1  |Eigenvec-2 |Eigenvec-3 |
-|-----------:|----------:|----------:|
-|-0.63946575 |-0.71335699| -0.28671479|
-|-0.63316521 | 0.70018244| -0.32991873|
-|-0.43610249 | 0.0294339 |  0.89941551|
-
-|Eigenval-1 |Eigenval-2 |Eigenval-3 | 
-|-----------:|----------:|----------:|
-|2.15049437 |0.14579902 |0.74916115|
+|        |Eigenvec-1  |Eigenvec-2 |Eigenvec-3 |
+|--------|-----------:|----------:|----------:|
+|Eur     |-0.63946575 |-0.71335699| -0.28671479|
+|m2      |-0.63316521 | 0.70018244| -0.32991873|
+|Acc     |-0.43610249 | 0.0294339 |  0.89941551|
+|        |            |           |            |
+|Eingeval|2.15049437  |0.14579902 |0.74916115|
+|%info   |71%         |5%         |25 % 
 
 
 |_________________________|_________________________|_________________________|
@@ -517,6 +516,14 @@
 
 |_________________________|_________________________|_________________________|
 |-------------------------|-------------------------|-------------------------|
+|Els vectors propis 1 i 3 tenen els valors propis més grans. Aquests dos vectors propis expliquen el 95% de la informació.|Los vectores propios 1 y 3 tienen los mayores valores propios. Estos dos vectores propios explican el 95% de la información.|Eigenvectors 1 and 3 have the largest eigenvalues. These two eigenvectors explain 95% of the information.|
+|El vector propi 1 amb el 71% de la informació serà la nostra component principal 1 i la representem a l'eix de les X. Preu i grandària són les variables amb major factor de càrrega, ambdues amb coeficient negatiu. A l´esquerra tindrem barris amb pisos grans i cars ia la dreta barris amb pisos petits i barats.|El vector propio 1 con el 71% de la informacion sera nuestra componente principal 1 y la representamos en el eje de las X. Precio y tamaño son las variables con mayor factor de carga, ambas con coeficiente negativo. A la izquierda tendremos barrios con pisos grandes y caros y a la derecha barrios con pisos pequeños y baratos.|The eigenvector 1 with 71% of the information will be our principal component 1 and we represent it on the X axis. Price and size are the variables with the highest loading factor, both with a negative coefficient. On the left we will have neighborhoods with large and expensive apartments and on the right we will have neighborhoods with small and cheap apartments.|
+|El vector propi 3 amb el 25% de la informació serà el nostre component principal 2 i la representarem a l'eix de les Y. La variable accidents és la que té més coeficient de càrrega en aquest eix. A dalt tindrem barris amb molts accidents ia la part inferior tindrem barris amb pocs accidents. En aquest eix els barris amb preus alts són a la part inferior ja que el seu coeficiet de càrrega és negatiu.|El vector propio 3 con el 25% de la información será nuestra componente principal 2 y la representaremos en el eje de las Y. La variable accidentes es la que tiene mayor coeficiente de carga en este eje. Arriba tendremos barrios con muchos accidentes y en la parte inferior tendremos barrios con pocos accidentes. En este eje los barrios con precios altos están en la parte inferior ya que su coeficietne de carga es negativo.|The eigenvector 3 with 25% of the information will be our principal component 2 and we will represent it on the Y axis. The accidents variable is the one with the highest loading coefficient on this axis. At the top we will have neighborhoods with many accidents and at the bottom we will have neighborhoods with few accidents. In this axis, the neighborhoods with high prices are at the bottom since their load coefficient is negative.|
+
+
+
+![alt text](./assets/pca_barris.png "Variable reduction")
+
 |Any |T1  |T2  |T3  |T4  |
 |----|----|----|----|----|
 |2016|66.0|66.0|66.0|66.0|
