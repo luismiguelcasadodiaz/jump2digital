@@ -459,9 +459,9 @@ criteris d’avaluació utilitzats.
 
 [Torna a l'inici/Volver arriba/Back to top](#indice)
 
-## Conclusions
-#### Conclusiones
-#### Conclusions
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|## Conclusions           |Conclusiones             |Conclusions              |
 
 Hola
 
