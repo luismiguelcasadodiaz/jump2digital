@@ -533,44 +533,39 @@
 |2020|67.0|66.0|67.0|67.0|
 |2021|67.0|67.0|67.0|66.0|
 |2022|67.0|67.0|67.0|NaN|
-2016 T1
-Var		PC-x	 PC-y
-Eur         	-0.65	 -0.23
-m2          	-0.64	 -0.35
-Accidents   	-0.41	  0.91
 
 
-20I7 T4
-Var		PC-x	 PC-y
-Eur         	-0.62	 -0.35
-m2          	-0.62	 -0.33
-Accidents   	-0.48	  0.88
-
-2018 T1
-Var		PC-x	 PC-y
-Eur         	-0.63	 -0.29
-m2          	-0.62	 -0.36
-Accidents   	-0.46	  0.89
-
-2019 T2
-Var		PC-x	 PC-y
-Eur         	-0.64	 -0.29
-m2          	-0.63	 -0.33
-Accidents   	-0.44	  0.90
-
-2020 T3
-Var		PC-x	 PC-y
-Eur         	-0.66	 -0.23
-m2          	-0.64	 -0.32
-Accidents   	-0.39	  0.92
-
-
-
-2022 T3
-Var		PC-x	 PC-y
-Eur         	-0.65	 -0.24
-m2          	-0.64	 -0.33
-Accidents   	-0.40	  0.91
+|Var	  |PC-x  |PC-y  |
+|---------|-----:|-----:|
+|2016 T1  |      |      |
+|Eur|   	-0.65| -0.23|
+|m2|    	-0.64| -0.35|
+|Accidents|	-0.41|  0.91|
+|         |      |      |
+|20I7 T4  |      |      |
+|Eur|   	-0.62| -0.35|
+|m2|    	-0.62| -0.33|
+|Accidents|	-0.48|  0.88|
+|         |      |      |
+|2018 T1  |      |      |
+|Eur|   	-0.63| -0.29|
+|m2|    	-0.62| -0.36|
+|Accidents|	-0.46|  0.89|
+|         |      |      |
+|2019 T2  |      |      |
+|Eur|   	-0.64| -0.29|
+|m2|    	-0.63| -0.33|
+|Accidents|	-0.44|  0.90|
+|         |      |      |
+|2020 T3  |      |      |
+|Eur|   	-0.66| -0.23|
+|m2|    	-0.64| -0.32|
+|Accidents|	-0.39|  0.92|
+|         |      |      |
+|2022 T3|        |      |
+|Eur|   	-0.65| -0.24|
+|m2|    	-0.64| -0.33|
+|Accidents|	-0.40|  0.91|
 
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
@@ -590,7 +585,7 @@ Accidents   	-0.40	  0.91
 |Tot i que el nombre d'accidents anuals ha disminuït a Barcelona entre el 2016 i el 2022, no ho ha fet de forma generalitzada a tota la ciutat. Hi ha Barris on la ponderació relativa del nombre d'accidents que té el barri respecte de la totalitat ha augmentat i d'altres ha disminuït.| A pesar de que el número de accidentes anuales ha disminuido en Barcelona entre 2016 y 2022, no lo ha hecho de forma generalizada en toda la ciudad.  Hay Barrios en los que la ponderación relativa del número de accidentes que tiene el barrio respecto de la totalidad ha aumentado y en otros ha disminuido.|Although the number of annual accidents has decreased in Barcelona between 2016 and 2022, it has not done so generally throughout the city. There are neighborhoods in which the relative weight of the number of accidents that the neighborhood has with respect to the entire neighborhood has increased and in others it has decreased.|
 
 
-![alt text](./assets/barris_change_accidentes.png "Neighborhood  weight i global accidentality")
+![alt text](./assets/barris_change_accidentes.png "Neighborhood  weight in global accidentality")
 
 
 
