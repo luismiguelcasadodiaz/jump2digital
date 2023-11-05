@@ -25,7 +25,7 @@
 
 
 
-
+---
 
 ## Prova Prueba Proof
 
@@ -62,7 +62,11 @@
 ### Lliurament Entrega Delivery
 
 [Jupyter Notebook](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/LMCD_JUMP2DIGITAL.ipynb)
-[README](). 
+
+[README](https://github.com/luismiguelcasadodiaz/jump2digital/blob/main/README.md). 
+
+[Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
+---
 
 
 ## Introducció Introducción Introduction
