@@ -577,11 +577,21 @@ Accidents   	-0.40	  0.91
 
 ## Resultats Resultados Results
 
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+
+
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
 
 ## Conclusions Conclusiones Conclusions
 
-Hola
+|_________________________|_________________________|_________________________|
+|-------------------------|-------------------------|-------------------------|
+|Tot i que el nombre d'accidents anuals ha disminuït a Barcelona entre el 2016 i el 2022, no ho ha fet de forma generalitzada a tota la ciutat. Hi ha Barris on la ponderació relativa del nombre d'accidents que té el barri respecte de la totalitat ha augmentat i d'altres ha disminuït.| A pesar de que el número de accidentes anuales ha disminuido en Barcelona entre 2016 y 2022, no lo ha hecho de forma generalizada en toda la ciudad.  Hay Barrios en los que la ponderación relativa del número de accidentes que tiene el barrio respecto de la totalidad ha aumentado y en otros ha disminuido.|Although the number of annual accidents has decreased in Barcelona between 2016 and 2022, it has not done so generally throughout the city. There are neighborhoods in which the relative weight of the number of accidents that the neighborhood has with respect to the entire neighborhood has increased and in others it has decreased.|
+
+
+![alt text](./assets/barris_change_accidentes.png "Neighborhood  weight i global accidentality")
+
 
 
 [Torna a l'inici/Volver arriba/Back to top](#continguts-contenido-contents)
