@@ -6,7 +6,7 @@
 1. [Introducció/Introducción/Introduction](#introduction)
 2. [Depuració de dades/Preparación de los datos/Data preprocess](#data-preprocess)
 3. [Resultats/Resultados/Results](#results)
-4. [Conclusions/Conclusiones/Conclusions](#conclusions/conclusiones/conclusions)
+4. [Conclusions/Conclusiones/Conclusions](#conclusions-conclusiones-conclusions)
 
 
 
