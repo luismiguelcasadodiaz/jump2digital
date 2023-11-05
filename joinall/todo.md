@@ -459,7 +459,7 @@ criteris d’avaluació utilitzats.
 
 [Torna a l'inici/Volver arriba/Back to top](#indice)
 
-## Conclusions/Conclusiones/Conclusions
+## Conclusions Conclusiones Conclusions
 
 Hola
 
