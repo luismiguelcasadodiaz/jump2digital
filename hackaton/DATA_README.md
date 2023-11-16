@@ -1,4 +1,4 @@
-|Field|Description|
+|Field |Description|
 |--------------|:-------------|
 |Codi_Districte|Código del districto|
 |Codi_Barri|Codigo del Barrio|
