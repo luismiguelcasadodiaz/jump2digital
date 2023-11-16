@@ -2,11 +2,11 @@
 
 ## Ministerio de Asuntos Económicos y Transformación Digital
 
-[Renda tributaria bruta media por persona (€/Año) de la ciudad de Barcelona] (https://datos.gob.es/es/catalogo/l01080193-renda-tributaria-bruta-media-por-persona-ano-de-la-ciudad-de-barcelona)
+[Renda tributaria bruta media por persona (€/Año) de la ciudad de Barcelona](https://datos.gob.es/es/catalogo/l01080193-renda-tributaria-bruta-media-por-persona-ano-de-la-ciudad-de-barcelona)
 
-[Media de la renta tributaria por unidad de consumo (€/Año) en la ciudad de Barcelona] (https://datos.gob.es/es/catalogo/l01080193-media-de-la-renta-tributaria-por-unidad-de-consumo-ano-en-la-ciudad-de-barcelona)
+[Media de la renta tributaria por unidad de consumo (€/Año) en la ciudad de Barcelona](https://datos.gob.es/es/catalogo/l01080193-media-de-la-renta-tributaria-por-unidad-de-consumo-ano-en-la-ciudad-de-barcelona)
 
-[Mediana de la renta tributaria por unidad de consumo (€/año) en la ciudad de Barcelona] (https://datos.gob.es/es/catalogo/l01080193-mediana-de-la-renta-tributaria-por-unidad-de-consumo-ano-en-la-ciudad-de-barcelona)
+[Mediana de la renta tributaria por unidad de consumo (€/año) en la ciudad de Barcelona](https://datos.gob.es/es/catalogo/l01080193-mediana-de-la-renta-tributaria-por-unidad-de-consumo-ano-en-la-ciudad-de-barcelona)
 
 [Renta tributaria media por hogar de la ciudad de Barcelona](https://datos.gob.es/es/catalogo/l01080193-renta-tributaria-media-por-unidad-de-consumo-de-la-ciudad-de-barcelona1)
 
